@@ -1,0 +1,17 @@
+.thumb {
+  height: 36px;
+  width: 36px;
+}
+
+.toc {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  color: rgb(18, 79, 21);
+  font-size: xxx-large;
+}
