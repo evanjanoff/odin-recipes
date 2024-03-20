@@ -1,17 +1,44 @@
-.thumb {
-  height: 36px;
-  width: 36px;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
-.toc {
-  font-size: 36px;
-  font-weight: bold;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  width: 750px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 h1 {
   color: rgb(18, 79, 21);
-  font-size: xxx-large;
+  font-size: xx-large;
+  font-variant-caps: small-caps;
+  margin: 12px;
+  text-align: center;
+}
+
+.thumb {
+  height: 200px;
+  width: 200px;
+  padding: 8px;
+}
+
+.recipe {
+  display: inline-block;
+  margin: 20px;
+  width: 204px;
+  height: 252px;
+  vertical-align: top;
+  text-align: center;
+  border: 2px solid gray;
+}
+
+.recipe-link {
+  display: block;
+  padding: 0 8px 8px;
 }
